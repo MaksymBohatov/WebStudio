@@ -87,7 +87,7 @@ a {
 }
 /* navbar */
 .header__bg {
-  background-image: url(../images/Img.png);
+  background-image: url(./images/Img.png);
   background-repeat: no-repeat;
   background-size: cover;
 
