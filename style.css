@@ -20,7 +20,7 @@ a {
 /* header */
 /* navbar */
 .nav--border-bottom {
- border-bottom: 1px solid rgb(236, 236, 236);
+  border-bottom: 1px solid rgb(236, 236, 236);
 }
 .navbar {
   display: flex;
@@ -28,7 +28,6 @@ a {
   justify-content: space-between;
 
   padding: 24px 0;
-
 }
 .navbar__wrapper {
   display: flex;
@@ -81,9 +80,13 @@ a {
   text-align: left;
 
   transition: 0.4s;
+
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 .address__link:hover {
-  color: rgb(33, 150, 243);
+  color: #2196F3
 }
 /* navbar */
 .header__bg {
@@ -178,7 +181,14 @@ a {
   letter-spacing: 3%;
   text-align: left;
 }
+.features__icon {
+  width: 70px;
+  height: 70px;
 
+  padding: 25px 100px;
+  border-radius: 4px;
+  background: #f5f4fa;
+}
 .activity {
   display: flex;
   flex-direction: column;
@@ -255,15 +265,85 @@ a {
   letter-spacing: 3%;
   text-align: center;
 
-  margin: 10px 0 0 0;
+  margin: 10px 0 16px 0;
+}
+.team-members__socmedia {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.team-members__socmedia-link {
+  width: 44px;
+  height: 44px;
+}
+.team-members__icon-ellipse {
+  fill: transparent;
+  width: 44px;
+  height: 44px;
+  transition: 0.3s;
+}
+.team-members__icon {
+  fill: #afb1b8;
+  width: 20px;
+  height: 20px;
+  transition: 1s;
+}
+.team-members__icon-ellipse:hover {
+  fill: #2196f3;
+}
+.team-members__icon-ellipse:hover .team-members__icon {
+  fill: #ffffff;
 }
 
+.clients {
+  background: #fff;
+}
+.clients__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+
+  padding: 94px 0;
+}
+.clients__title {
+  color: #212121;
+  text-align: center;
+  font-family: var(--main-font);
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.08px;
+}
+.clients__logos {
+  display: flex;
+  gap: 30px;
+}
+.clietns__logo {
+  width: 106px;
+  height: 60px;
+  padding: 16px 32px;
+  border-radius: 4px;
+  border: 1px solid #afb1b8;
+  fill: #afb1b8;
+
+  transition: 0.45s;
+}
+.clietns__logo:hover {
+  fill: #2196f3;
+  border: 1px solid #2196f3;
+}
 /* main */
 /* footer */
 .footer {
   background: rgb(47, 48, 58);
 
   padding: 60px 0;
+}
+.footer__content {
+  display: flex;
+  gap: 70px;
 }
 .footer__wrapper {
   display: flex;
@@ -284,15 +364,14 @@ a {
 }
 .footer__address-txt {
   color: rgb(255, 255, 255);
-font-family: var(--main-font);
-font-size: 14px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 3%;
-text-align: left;
+  font-family: var(--main-font);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 3%;
+  text-align: left;
 }
-
-.footer__link  {
+.footer__link {
   color: rgba(255, 255, 255, 0.6);
   font-family: var(--main-font);
   font-size: 14px;
@@ -305,5 +384,40 @@ text-align: left;
 }
 .footer__link:hover {
   color: rgb(255, 255, 255);
+}
+.footer__socmedia {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+}
+.footer__socmedia-title {
+  color: #fff;
+  font-family: var(--main-font);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+}
+.footer__socmedia-links {
+  display: flex;
+  gap: 10px;
+}
+.footer__icon-ellipse {
+  width: 44px;
+  height: 44px;
+  fill: rgba(255, 255, 255, 0.1);
+
+  transition: 0.3s;
+}
+.footer__icon-ellipse:hover {
+  fill: #2196F3;
+}
+.footer__icon {
+width: 20px;
+height: 20px;
+fill: #FFFFFF;
 }
 /* footer */
