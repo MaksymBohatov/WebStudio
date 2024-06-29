@@ -1,4 +1,6 @@
-@import "../../colors";
+@import "../../colors-portfolio";
+@import "../../mixins-portfolio";
+@import "../../placeholders-portfolio";
 .footer {
   background: map-get($colors-portfolio, "footer-bg");
 
@@ -64,14 +66,7 @@
   gap: 20px;
 }
 .footer__socmedia-title {
-  color: map-get($colors-portfolio, "sub-color-two");
-  font-family: "Roboto", sans-serif;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: 0.42px;
-  text-transform: uppercase;
+  @extend %footer-titles !optional;
 }
 .footer__socmedia-links {
   display: flex;
@@ -98,14 +93,7 @@
   gap: 20px;
 }
 .newsletter__title {
-  color: map-get($colors-portfolio, "sub-color-two");
-  font-family: "Roboto", sans-serif;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: 0.42px;
-  text-transform: uppercase;
+  @extend %footer-titles !optional;
 }
 .newsletter__subscribe-box {
   display: flex;

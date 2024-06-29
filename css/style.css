@@ -66,6 +66,48 @@ a {
   padding: 0 15px;
 }
 
+.team-members__title, .clients__title, .activity__title {
+  color: rgb(33, 33, 33);
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 3%;
+  text-align: center;
+}
+
+.newsletter__title, .footer__socmedia-title {
+  color: rgb(255, 255, 255);
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+}
+
+.team-members__title, .clients__title, .activity__title {
+  color: rgb(33, 33, 33);
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 3%;
+  text-align: center;
+}
+
+.newsletter__title, .footer__socmedia-title {
+  color: rgb(255, 255, 255);
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+}
+
 .header__bg {
   background-image: url(/images/Img.png);
   background-repeat: no-repeat;
@@ -112,14 +154,36 @@ a {
   text-align: center;
 }
 
+.team-members__title, .clients__title, .activity__title {
+  color: rgb(33, 33, 33);
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 3%;
+  text-align: center;
+}
+
+.newsletter__title, .footer__socmedia-title {
+  color: rgb(255, 255, 255);
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+}
+
 .nav--border-bottom {
   border-bottom: 1px solid rgb(236, 236, 236);
 }
 
 .navbar {
   display: flex;
-  align-items: center;
+  flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   padding: 24px 0;
 }
 
@@ -233,6 +297,27 @@ a {
   color: #2196f3;
 }
 
+.team-members__title, .clients__title, .activity__title {
+  color: rgb(33, 33, 33);
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 3%;
+  text-align: center;
+}
+
+.newsletter__title, .footer__socmedia-title {
+  color: rgb(255, 255, 255);
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+}
+
 .main__wrapper {
   display: flex;
   flex-direction: column;
@@ -287,16 +372,6 @@ a {
   gap: 50px;
 }
 
-.activity__title {
-  color: rgb(33, 33, 33);
-  font-family: "Roboto", sans-serif;
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 42px;
-  letter-spacing: 3%;
-  text-align: center;
-}
-
 .activity__photos {
   display: flex;
   gap: 30px;
@@ -325,6 +400,27 @@ a {
   text-transform: uppercase;
 }
 
+.team-members__title, .clients__title, .activity__title {
+  color: rgb(33, 33, 33);
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 3%;
+  text-align: center;
+}
+
+.newsletter__title, .footer__socmedia-title {
+  color: rgb(255, 255, 255);
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+}
+
 .clients {
   background: #fff;
 }
@@ -333,18 +429,12 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
   gap: 50px;
   padding: 94px 0;
-}
-
-.clients__title {
-  text-align: center;
-  font-family: "Roboto", sans-serif;
-  font-size: 36px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: 1.08px;
 }
 
 .clients__logos {
@@ -367,12 +457,7 @@ a {
   border: 1px solid #2196f3;
 }
 
-.team-members {
-  background: rgb(245, 244, 250);
-  padding: 94px 0;
-}
-
-.team-members__title {
+.team-members__title, .activity__title, .clients__title {
   color: rgb(33, 33, 33);
   font-family: "Roboto", sans-serif;
   font-size: 36px;
@@ -380,6 +465,25 @@ a {
   line-height: 42px;
   letter-spacing: 3%;
   text-align: center;
+}
+
+.newsletter__title, .footer__socmedia-title {
+  color: rgb(255, 255, 255);
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+}
+
+.team-members {
+  background: rgb(245, 244, 250);
+  padding: 94px 0;
+}
+
+.team-members__title {
   margin-bottom: 50px;
 }
 
@@ -458,6 +562,27 @@ a {
   fill: #ffffff;
 }
 
+.activity__title, .clients__title, .team-members__title {
+  color: rgb(33, 33, 33);
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 3%;
+  text-align: center;
+}
+
+.newsletter__title, .footer__socmedia-title {
+  color: rgb(255, 255, 255);
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+}
+
 .footer {
   background: rgb(47, 48, 58);
   padding: 60px 0;
@@ -525,17 +650,6 @@ a {
   gap: 20px;
 }
 
-.footer__socmedia-title {
-  color: rgb(255, 255, 255);
-  font-family: "Roboto", sans-serif;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: 0.42px;
-  text-transform: uppercase;
-}
-
 .footer__socmedia-links {
   display: flex;
   gap: 10px;
@@ -562,17 +676,6 @@ a {
   display: flex;
   flex-direction: column;
   gap: 20px;
-}
-
-.newsletter__title {
-  color: rgb(255, 255, 255);
-  font-family: "Roboto", sans-serif;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: 0.42px;
-  text-transform: uppercase;
 }
 
 .newsletter__subscribe-box {

@@ -1,5 +1,6 @@
 @import "../../colors";
-
+@import "../../mixins";
+@import "../../placeholders";
 .clients {
   background: map-get($colors-webstudio, 'background-two' );
 }
@@ -7,19 +8,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  @include flex ($direction: column);
   gap: 50px;
 
   padding: 94px 0;
 }
 .clients__title {
-  color: map-get($colors-webstudio, 'tile-one' );
-  text-align: center;
-  font-family: "Roboto", sans-serif;
-  font-size: 36px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: 1.08px;
+  @extend %titles 
 }
 .clients__logos {
   display: flex;

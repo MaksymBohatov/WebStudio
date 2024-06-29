@@ -1,4 +1,6 @@
-@import "../../colors";
+@import "../../colors-portfolio";
+@import "../../mixins-portfolio";
+@import "../../placeholders-portfolio";
 .main__content {
   display: flex;
   flex-direction: column;

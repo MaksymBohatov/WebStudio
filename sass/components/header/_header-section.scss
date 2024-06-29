@@ -1,18 +1,18 @@
 @import "../../colors";
-
+@import "../../mixins";
+@import "../../placeholders";
 .nav--border-bottom {
   border-bottom: 1px solid map-get($colors-webstudio, "nav-border-bottom");
 }
 .navbar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-
+  @include flex ($justify: space-between);
   padding: 24px 0;
 }
 .navbar__wrapper {
   display: flex;
   align-items: center;
+
+  
   gap: 93px;
 }
 .logo__text {

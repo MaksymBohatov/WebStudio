@@ -1,11 +1,11 @@
-@import "../../colors";
+@import "../../colors-portfolio";
+@import "../../mixins-portfolio";
+@import "../../placeholders-portfolio";
 .nav--border-bottom {
   border-bottom: 1px solid map-get($colors-portfolio, "nav-border-bottom");
 }
 .navbar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  @include flex ($justify: space-between);
 
   padding: 24px 0;
 }
